@@ -1,0 +1,188 @@
+/*
+Template Name: DrPrx
+Description: HTML5 / CSS3 One Page
+Version: 0.1
+Author: Chriss Mejía
+Website: https://chrissmejia.com
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #353e55;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #264175;
+    font-weight: 300;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+.container {
+    padding: 0;
+}
+
+.btn-primary, .btn-primary:visited {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: initial;
+    border: #3b4a5a solid 0.1rem;
+    padding: 0.8rem 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.btn-primary:active, .btn-primary:hover {
+    background-color: initial;
+    border: #3d71a8 solid 0.1rem;
+}
+
+a {
+    color: #274175;
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    font-weight: 200;
+}
+
+.sticky-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+}
+
+.gray-bg {
+    background: #9baab6;
+    padding: 7rem 0;
+}
+
+canvas {
+    width: 100%;
+    height: 40rem;
+    opacity: 0.6;
+}
+
+.header .container {
+    padding: 0;
+}
+
+.header #welcome {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.navbar #logo {
+    width: 10rem;
+    margin-right: 0.2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(2, 29, 51, 0.6);
+}
+
+.header {
+    position: relative;
+    background: #021d33;
+}
+
+.header #text {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.6rem 2rem;
+    color: #fff;
+    font-weight: 200;
+    opacity: 0.9;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+}
+
+#header-footer {
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+}
+
+#header-footer p {
+    margin: 0;
+    padding: 2rem 0;
+}
+
+#section-team {
+    padding-top: 3rem;
+}
+
+.team .thumbnail {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 2rem;
+}
+
+.team .thumbnail a:hover {
+    text-decoration: none;
+}
+
+.thumbnail img {
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.thumbnail h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.thumbnail h3 small {
+    font-size: 0.8rem;
+    margin: 0.4rem 0;
+    color: #888;
+    display: block;
+    font-weight: normal;
+}
+
+.team .thumbnail h3 a {
+    font-size: 0.6rem;
+    color: #C0C0C0;
+}
+
+
+#section-contact {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#section-contact form {
+    display: inline-block;
+}
+
+.footer {
+    margin-top: 1rem;
+    color: #99a4ac;
+    background: #021d33;
+    padding: 0.4rem 0;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer ul {
+    margin-bottom: 0;
+}
