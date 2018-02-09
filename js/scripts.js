@@ -1,23 +1,4 @@
 $(document).ready(function () {
-    // Welcome center
-    function welcomeCenter() {
-        var height = $('.header').height();
-        var welcome = $('#welcome').outerHeight();
-        var navbar = $('.navbar').outerHeight();
-        var footer = $('#header-footer').outerHeight();
-
-        var free_space = height - (navbar + footer);
-        var off_top = (free_space / 2);
-
-        $('#welcome').css("top", off_top + "px");
-    }
-
-    $(window).resize(function () {
-        welcomeCenter();
-    });
-
-    $(window).resize();
-
     // Animation
     var canvas = document.querySelector("canvas");
     canvas.width = window.innerWidth;
@@ -113,4 +94,23 @@ $(document).ready(function () {
 
     // Start
     loop();
+
+    // Welcome center
+    function welcomeCenter() {
+        var height = $('.header').height();
+        var welcome = $('#welcome').outerHeight();
+        var navbar = $('.navbar').outerHeight();
+        var footer = $('#header-footer').outerHeight();
+        
+        var free_space = height - (navbar + footer + welcome);
+        var off_top = (free_space / 2) + navbar;
+
+        $('#welcome').css("top", off_top + "px");
+    }
+
+    $(window).resize(function () {
+        welcomeCenter();
+    });
+
+    $(window).resize();
 });
