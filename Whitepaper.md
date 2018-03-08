@@ -4,8 +4,8 @@ DRAFT
 
 DR PRx Whitepaper
 Authors:
-Rachel Fogel 
-#add your name#
+Rachel Fogel /n
+#add your name
 
 
 **Introduction To DrPRx**
