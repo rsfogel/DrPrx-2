@@ -10,31 +10,17 @@ Rachel Fogel /n
 
 **Introduction To DrPRx**
 
-**Problem With Healthcare Today**
-
-
-*passive patient*
-
-*framentation of care*
-
-*hacking and fraud*
-
-
-**Solution to Healthcare Problem**
-
-*description of techonlogy*
-  *blocktree and encryption*
-
-**Creation of a Secure Identity**
-
-*patient setting premissons*
-
-**Direct connection to insurance a providers**
-
-**ICO**
-
-*ICO required for product devlopment*
-
-**Next Steps**
-
-**Conclusions**
+Problem With Healthcare Today
+  passive patient
+  fragmentation of care
+  hacking and fraud
+Solution to Healthcare Problem
+  description of technology blocktree and encryption
+#Fernando and Ira
+Creation of a Secure Identity
+   patient setting permissions
+#Fernando and Ira
+Direct connection to insurance a providers
+ICO
+ ICO required for product devlopment
+Next Steps
